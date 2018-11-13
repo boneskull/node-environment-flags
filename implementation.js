@@ -2,6 +2,7 @@
 
 const semver = require('semver');
 const flags = require('./flags.json');
+const getDescriptors = require('object.getownpropertydescriptors');
 
 const replaceUnderscoresRegex = /_/g;
 const leadingDashesRegex = /^--?/;
@@ -49,7 +50,7 @@ class NodeEnvironmentFlagsSet extends Set {
 }
 const nodeFlags = Object.defineProperties(
   new Set(allowedNodeEnvironmentFlags.map(trimLeadingDashes)),
-  Object.getOwnPropertyDescriptors(Set.prototype)
+  getDescriptors(Set.prototype)
 );
 
 Object.freeze(NodeEnvironmentFlagsSet.prototype.constructor);
