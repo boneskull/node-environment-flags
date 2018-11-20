@@ -85,6 +85,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
@@ -104,8 +105,7 @@
     "--use-openssl-ca",
     "--v8-pool-size",
     "--zero-fill-buffers",
-    "-r",
-    "--max_old_space_size"
+    "-r"
   ],
   ">=8.2.0 <8.4.0": [
     "--abort-on-uncaught-exception",
@@ -114,6 +114,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
@@ -133,8 +134,7 @@
     "--use-openssl-ca",
     "--v8-pool-size",
     "--zero-fill-buffers",
-    "-r",
-    "--max_old_space_size"
+    "-r"
   ],
   "~8.4.0": [
     "--abort-on-uncaught-exception",
@@ -144,6 +144,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
@@ -163,8 +164,7 @@
     "--use-openssl-ca",
     "--v8-pool-size",
     "--zero-fill-buffers",
-    "-r",
-    "--max_old_space_size"
+    "-r"
   ],
   ">=8.5.0 <8.8.0": [
     "--abort-on-uncaught-exception",
@@ -175,6 +175,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
@@ -194,8 +195,7 @@
     "--use-openssl-ca",
     "--v8-pool-size",
     "--zero-fill-buffers",
-    "-r",
-    "--max_old_space_size"
+    "-r"
   ],
   ">=8.8.0 <8.12.0": [
     "--abort-on-uncaught-exception",
@@ -207,6 +207,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
@@ -226,8 +227,7 @@
     "--use-openssl-ca",
     "--v8-pool-size",
     "--zero-fill-buffers",
-    "-r",
-    "--max_old_space_size"
+    "-r"
   ],
   ">=8.12.0 <10.0.0": [
     "--abort-on-uncaught-exception",
@@ -239,7 +239,7 @@
     "--inspect-port",
     "--inspect",
     "--loader",
-    "--max_old_space_size",
+    "--max-old-space-size",
     "--napi-modules",
     "--no-deprecation",
     "--no-warnings",
