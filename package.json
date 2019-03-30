@@ -27,12 +27,12 @@
     "mocha": "^5.2.0",
     "nyc": "^13.1.0",
     "prettier-eslint-cli": "^4.7.1",
-    "semantic-release": "^15.11.0",
     "travis-deploy-once": "^5.0.9",
     "unexpected": "^10.39.1"
   },
   "dependencies": {
-    "object.getownpropertydescriptors": "^2.0.3"
+    "object.getownpropertydescriptors": "^2.0.3",
+    "semantic-release": "^15.13.3"
   },
   "files": [
     "implementation.js",
