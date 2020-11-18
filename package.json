@@ -27,7 +27,7 @@
     "mocha": "^5.2.0",
     "nyc": "^14.1.1",
     "prettier-eslint-cli": "^4.7.1",
-    "semantic-release": "^15.13.16",
+    "semantic-release": "^17.2.3",
     "travis-deploy-once": "^5.0.9",
     "unexpected": "^10.39.1"
   },
